@@ -1,0 +1,147 @@
+* {
+    font: monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.secondary-container{
+    display: flex;
+    overflow: scroll;
+    margin: 10px 40px;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.secondary-continer div {
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.sample {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.folder {
+    flex: grow;
+    padding: 0px 10px;
+}
+
+.base div {
+    background: #1e1e2e;
+}
+
+.mantle div {
+    background: #181825;
+}
+
+.crust div {
+    background: #11111b;
+}
+
+.text div {
+    background: #cdd6f4;
+}
+
+.subtext0 div {
+    background: #a6adc8;
+}
+
+.subtext1 div {
+    background: #bac2de;
+}
+
+.surface0 div {
+    background: #313244;
+}
+
+.surface1 div {
+    background: #45475a;
+}
+
+.surface2 div {
+    background: #585b70;
+}
+
+.overlay0 div {
+    background: #6c7086;
+}
+
+.overlay1 div {
+    background: #7f849c;
+}
+
+.overlay2 div {
+    background: #9399b2;
+}
+
+.blue div {
+    background: #89b4fa;
+}
+
+.lavender div {
+    background: #b4befe;
+}
+
+.sapphire div {
+    background: #74c7ec;
+}
+
+.sky div {
+    background: #89dceb;
+}
+
+.teal div {
+    background: #94e2d5;
+}
+
+.green div {
+    background: #a6e3a1;
+}
+
+.yellow div {
+    background: #f9e2af;
+}
+
+.peach div {
+    background: #fab387;
+}
+
+.maroon div {
+    background: #eba0ac;
+}
+
+.red div {
+    background: #f38ba8;
+}
+
+.mauve div {
+    background: #cba6f7;
+}
+
+.pink div {
+    background: #f5c2e7;
+}
+
+.flamingo div {
+    background: #f2cdcd;
+}
+
+.rosewater div {
+    background: #f5e0dc;
+}
